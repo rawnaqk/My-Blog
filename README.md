@@ -14,7 +14,7 @@ To input day to day blog posts regarding my daily activities. Anything new I've 
 ![preview of My Blog Landing page](./assets/images/My-Blog-Landing-Page.png)
 ![preview of My Blog Posts page](./assets/images/My-Blog-Posts-Page.png)
 
-[Click here to preview Payroll-Tracker website](https://rawnaqk.github.io/My-Blog/)
+[Click here to preview My Blog website](https://rawnaqk.github.io/My-Blog/)
 
 ## Credits
 N/A
