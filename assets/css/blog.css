@@ -5,32 +5,38 @@
   
 header {
     display: flex;
+    min-width: auto;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
     border-bottom: 1px solid #000;
 }
  
 #posts-list {
-    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
 }
   
 footer {
     text-align: center;
     padding: 10px 0;
+    border-top: 1px solid #000;
 }
   
 /* Dark Mode */
 .dark-mode {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
 }
   
 .dark-mode #posts-page {
-    background-color: #555;
-    border-color: #777;
+    background-color: #000;
 }
   
 .dark-mode header {
-    border-bottom-color: #777;
+    border-bottom-color: #fff;
 }
