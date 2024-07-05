@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   const blogForm = document.getElementById('blogForm');
+  const darkModeToggle = document.getElementById('darkModeToggle');
 
+  // Event listener for form submission
   blogForm.addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -20,11 +22,16 @@ document.addEventListener('DOMContentLoaded', function() {
       posts.push(post);
       localStorage.setItem('posts', JSON.stringify(posts));
 
-      // Redirect to posts.html
+      // Redirect to posts page
       window.location.href = 'blog.html';
     } else {
       alert('Please complete all fields.');
     }
+  });
+
+  // Event listener for dark mode toggle
+  darkModeToggle.addEventListener('change', function() {
+    document.body.classList.toggle('dark-mode');
   });
 });
 
