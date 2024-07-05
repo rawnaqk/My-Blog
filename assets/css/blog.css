@@ -1,0 +1,36 @@
+#posts-page {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+  
+#posts-list {
+    padding: 20px 0;
+}
+  
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+  
+/* Dark Mode */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+  
+.dark-mode #posts-page {
+    background-color: #555;
+    border-color: #777;
+}
+  
+.dark-mode header {
+    border-bottom-color: #777;
+}
