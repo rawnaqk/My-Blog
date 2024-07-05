@@ -1,6 +1,6 @@
 #posts-page {
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
 }
   
 header {
@@ -8,9 +8,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
 }
-  
+ 
 #posts-list {
     padding: 20px 0;
 }
